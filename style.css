@@ -32,32 +32,35 @@ a {
     padding:10px;
 }
 
-/* nav ul{
-    display: inline-block;
+.content{
+    list-style: inside;
+    height: 300px;
     text-align: center;
 }
 
-ul {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-  }
-  
- nav li {
-    display: inline;
-  }
-  
-  li a {
+.content ul, ol{
     display: inline-block;
-    color: #000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #fff;
-  } */
+    text-align: left;
+}
+
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Products page */
+
+.box{
+    display: flex;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    background-color: rgb(43, 125, 202);
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact page */
+
